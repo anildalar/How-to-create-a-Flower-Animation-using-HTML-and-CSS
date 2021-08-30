@@ -1,0 +1,156 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    position: relative;
+    animation: floweranimation 10s linear 0s infinite;
+}
+@keyframes floweranimation {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.parent > div{
+    position:absolute;
+    left: 0px;
+    top: 0px;;
+} 
+.common{
+    width: 250px;
+    height: 250px;
+    opacity: 0.4;
+    transform-origin: right bottom;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+} 
+.leaf1{
+    background-color: orange; 
+    transform:rotateZ(0deg);
+}
+.leaf2{
+    background-color: blue; 
+    transform:rotateZ(11.25deg);
+}
+.leaf3{
+    background-color: purple; 
+    transform:rotateZ(22.50deg);
+}
+.leaf4{
+    background-color: BlueViolet; 
+    transform:rotateZ(33.75deg);
+}
+.leaf5{
+    background-color: CornflowerBlue; 
+    transform:rotateZ(45deg);
+}
+.leaf6{
+    background-color: #8B008B; 
+    transform:rotateZ(56.25deg);
+}
+.leaf7{
+    background-color: DarkOrchid; 
+    transform:rotateZ(67.5deg);
+}
+.leaf8{
+    background-color: DarkSlateBlue; 
+    transform:rotateZ(78.30deg);
+}
+.leaf9{
+    background-color: DarkTurquoise; 
+    transform:rotateZ(89.55deg);
+}
+.leaf10{
+    background-color: Crimson; 
+    transform:rotateZ(99.80deg);
+}
+.leaf11{
+    background-color: SaddleBrown; 
+    transform:rotateZ(111.05deg);
+}
+.leaf12{
+    background-color: SeaGreen ; 
+    transform:rotateZ(122.30deg);
+}
+.leaf13{
+    background-color: WhiteSmoke; 
+    transform:rotateZ(133.55deg);
+}
+.leaf14{
+    background-color: Tomato; 
+    transform:rotateZ(144.8deg);
+}
+.leaf15{
+    background-color: Sienna; 
+    transform:rotateZ(156.05deg);
+}
+.leaf16{
+    background-color: Salmon; 
+    transform:rotateZ(167.3deg);
+}
+.leaf17{
+    background-color: RosyBrown; 
+    transform:rotateZ(178.55deg);
+}
+.leaf18{
+    background-color: Peru; 
+    transform:rotateZ(189.8deg);
+}
+.leaf19{
+    background-color: PaleVioletRed; 
+    transform:rotateZ(201.05deg);
+}
+.leaf20{
+    background-color: Orchid; 
+    transform:rotateZ(212.3deg);
+}
+.leaf21{
+    background-color: OliveDrab; 
+    transform:rotateZ(223.55deg);
+}
+.leaf22{
+    background-color: MediumTurquoise; 
+    transform:rotateZ(234.8deg);
+}
+.leaf23{
+    background-color: MediumSpringGreen; 
+    transform:rotateZ(246.05deg);
+}
+.leaf24{
+    background-color: MediumPurple; 
+    transform:rotateZ(257.3deg);
+}
+.leaf25{
+    background-color: MediumBlue; 
+    transform:rotateZ(268.55deg);
+}
+.leaf26{
+    background-color: LightSlateGrey; 
+    transform:rotateZ(279.8deg);
+}
+.leaf27{
+    background-color: LightGoldenRodYellow; 
+    transform:rotateZ(291.05deg);
+}
+.leaf28{
+    background-color: LightCoral; 
+    transform:rotateZ(302.5deg);
+}
+.leaf29{
+    background-color: FireBrick; 
+    transform:rotateZ(313.55deg);
+}
+.leaf30{
+    background-color: GoldenRod; 
+    transform:rotateZ(324.8deg);
+}
+.leaf31{
+    background-color: ForestGreen; 
+    transform:rotateZ(336.05deg);
+}
+.leaf32{
+    background-color: Gainsboro; 
+    transform:rotateZ(347.3deg);
+}
